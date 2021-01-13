@@ -268,7 +268,7 @@ ggplot(data_2, aes(x=Condition, weight=Select_Error, fill=Condition))+ geom_bar(
 ggplot(data_2, aes(x=Condition, weight=Skip_Error, fill=Condition))+ geom_bar()+
   labs(title="Number of Skip Errors per condition", x="Condition", y="Skip Errors")
 
-##Scatter Plots##
+##Scatter Plots Age vs Error and TLX Before/After##
 
 plot(Total.Errors ~ Age, data = extra,  xlab = "Age", ylab = "Total Errors",col=my_cols_2[extra$Condition], pch=19)
 title(main = "Total Errors by Age with best-fit line", font.main = 3)
